@@ -15,6 +15,6 @@ platform :ios do
   desc "Description of what the lane does"
   lane :surf do
     # add actions here: https://docs.fastlane.tools/actions
-	gym(scheme: ‘surf’, export_method: ‘enterprise’,export_xcargs: "-allowProvisioningUpdates")
+	gym(scheme: ‘surf’, export_method: ‘enterprise’)
   end
 end
